@@ -1,181 +1,164 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Voyage_Plus | Voyages & Découvertes</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <section>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Lamine_Store</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent" aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">Voyage_Plus</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">A-propos</a>
-        </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#">Mes articles</a>
-        </li>
-       
-          <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-       
-       
-       
+        <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Destination">
+        <button class="btn btn-outline-success">Rechercher</button>
       </form>
     </div>
   </div>
 </nav>
-    </section>
 
-    <section class="hero">
-     <div>
-           <h1>Lamine_store – L’élégance au quotidien</h1>
-        <p>Découvrez chez Lamine_store une sélection unique de vêtements et d’accessoires alliant style, qualité et modernité. Que ce soit pour une occasion spéciale ou pour votre tenue de tous les jours, nous vous offrons des pièces tendance à des prix accessibles, pensées pour sublimer votre élégance.</p>
-        <button type="button" class="btn btn-danger">Voir la collection</button>
-     </div>
-    </section>
+<!-- HERO -->
+<section class="hero text-center text-white p-5">
+  <h1>Voyage_Plus – Explore le monde autrement</h1>
+  <p>
+    Découvrez des destinations incroyables, des séjours sur mesure et des expériences
+    inoubliables à des prix accessibles.
+  </p>
+  <button class="btn btn-danger">Voir les destinations</button>
+</section>
 
+<!-- A PROPOS -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">À propos de Voyage_Plus</h2>
+  <p>
+    Voyage_Plus est une agence de voyage dédiée à la découverte du monde.
+    Nous proposons des séjours, circuits touristiques et voyages personnalisés
+    adaptés à tous les budgets.
+  </p>
+  <p>
+    Notre objectif est de vous offrir une expérience de voyage simple, sécurisée
+    et mémorable, avec un accompagnement professionnel à chaque étape.
+  </p>
+</section>
 
-    <section>
-        <h2>A-Propos de Lamine_STORE</h2>
-        <div class="paragraphe">
-            <p>Lamine_store est une boutique dédiée à la mode et à l’élégance, proposant des vêtements et accessoires soigneusement sélectionnés. Nous mettons un point d’honneur à offrir des produits de qualité, modernes et adaptés à tous les styles. Notre objectif est de rendre la mode accessible sans compromis sur le goût et le raffinement.</p>
-            <p>Chez Lamine_store, nous croyons que chaque personne mérite de se sentir belle et confiante dans sa tenue. Nous suivons les tendances tout en valorisant l’authenticité et le confort. À travers notre service client et nos collections, nous cherchons à créer une expérience d’achat simple, agréable et fiable.</p>
+<!-- DESTINATIONS -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Nos Destinations</h2>
+
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="assets/Paris 🇫🇷.jpeg" class="card-img-top" alt="Paris">
+        <div class="card-body">
+          <h5 class="card-title">Paris, France</h5>
+          <p class="card-text">Séjour romantique et culturel au cœur de l’Europe.</p>
+          <a href="#" class="btn btn-danger">Réserver</a>
         </div>
-    </section>
-    
-    <section>
-        <h2>Mes articles</h2>
-        <div class="ligne1">
-            <div class="card" style="width: 18rem;">
-  <img src="assets/sac_sergio_rossi.jpg" class="card-img-top" alt="assets/sac_sergio_rossi.jpg">
-  <div class="card-body">
-    <h5 class="card-title">SAC SERGIO ROSSI</h5>
-    <p class="card-text">Sac élégant et pratique, parfait pour compléter toutes vos tenues au quotidien.</p>
-    <a href="#" class="btn btn-danger">Commander</a>
-  </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="assets/Sac_a_dos.jpg" class="card-img-top" alt="assets/Sac_a_dos.jpg">
-  <div class="card-body">
-    <h5 class="card-title">SAC À DOS</h5>
-    <p class="card-text">Sac à dos élégant et fonctionnel, parfait pour les déplacements quotidiens.</p>
-    <a href="#" class="btn btn-danger">Commander
+      </div>
+    </div>
 
-    </a>
-  </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="assets/Sac_sport.jpg" class="card-img-top" alt="assets/Sac_sport.jpg">
-  <div class="card-body">
-    <h5 class="card-title">SAC SPORT</h5>
-    <p class="card-text">Sac sportif moderne et résistant, parfait pour les activités physiques et les déplacements.</p>
-    <a href="#" class="btn btn-danger">Commander
-
-    </a>
-  </div>
-</div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="assets/Dubaï 🇦🇪.jpeg" class="card-img-top" alt="Dubai">
+        <div class="card-body">
+          <h5 class="card-title">Dubai, Émirats</h5>
+          <p class="card-text">Voyage luxe, shopping et expériences uniques.</p>
+          <a href="#" class="btn btn-danger">Réserver</a>
         </div>
-    </section>
-    <section>
-          <div class="ligne1">
-            <div class="card" style="width: 18rem;">
-  <img src="assets/Chaussure1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Chaussure</h5>
-    <p class="card-text">Chaussures élégantes et confortables, parfaites pour un look chic et moderne.</p>
-    <a href="#" class="btn btn-danger">Commander</a>
-  </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="assets/Chaussure2.png" class="card-img-top" alt="assets/Chaussure2.png">
-  <div class="card-body">
-    <h5 class="card-title">Chaussure</h5>
-    <p class="card-text">Chaussures élégantes et confortables, parfaites pour un look chic et moderne.</p>
-    <a href="#" class="btn btn-danger">Commander
+      </div>
+    </div>
 
-    </a>
-  </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="assets/Chaussure3.jpg" class="card-img-top" alt="assets/Chaussure3.jpg">
-  <div class="card-body">
-    <h5 class="card-title">Chaussure</h5>
-    <p class="card-text">Chaussures élégantes et confortables, parfaites pour un look chic et moderne.</p>
-    <a href="#" class="btn btn-danger">Commander
-
-    </a>
-  </div>
-</div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="assets/Pise 🇮🇹.jpeg" class="card-img-top" alt="Pise">
+        <div class="card-body">
+          <h5 class="card-title">Pise, Italie</h5>
+          <p class="card-text">Découvrez la célèbre tour penchée et son histoire fascinante.</p>
+          <a href="#" class="btn btn-danger">Réserver</a>
         </div>
-    </section>
-    <section>
-          <div class="ligne1">
-            <div class="card" style="width: 18rem;">
-  <img src="assets/Vetement1.jpg" class="card-img-top" alt="assets/Vetement1.jpg">
-  <div class="card-body">
-    <h5 class="card-title">VÊTEMENT</h5>
-    <p class="card-text">Vêtement élégant et moderne, parfait pour compléter toutes vos tenues au quotidien.</p>
-    <a href="#" class="btn btn-danger">Commander</a>
-  </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="assets/Vetement2.jpg" class="card-img-top" alt="assets/Vetement2.jpg">
-  <div class="card-body">
-    <h5 class="card-title">VÊTEMENT</h5>
-    <p class="card-text">Vêtement élégant et moderne, parfait pour compléter toutes vos tenues au quotidien.</p>
-    <a href="#" class="btn btn-danger">Commander
+      </div>
+    </div>
 
-    </a>
-  </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="assets/Vetement3.jpg" class="card-img-top" alt="assets/Vetement3.jpg">
-  <div class="card-body">
-    <h5 class="card-title">VÊTEMENT</h5>
-    <p class="card-text">Vêtement élégant et moderne, parfait pour compléter toutes vos tenues au quotidien.</p>
-    <a href="#" class="btn btn-danger">Commander
-
-    </a>
-  </div>
-</div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="assets/Rio de Janeiro 🇧🇷.jpeg" class="card-img-top" alt="Rio de Janeiro">
+        <div class="card-body">
+          <h5 class="card-title">Rio de Janeiro, Brésil</h5>
+          <p class="card-text">Découvrez la ville de la joie, ses plages et ses paysages spectaculaires.</p>
+          <a href="#" class="btn btn-danger">Réserver</a>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <section>
-        <h2>Contactez-Nous</h2>
-        <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Prenom & Nom</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-   
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Addresse Email</label>
-    <input type="email" class="form-control" id="exampleInputPassword1">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="assets/Agra 🇮🇳.jpeg" class="card-img-top" alt="Agra">
+        <div class="card-body">
+          <h5 class="card-title">Agra, Inde</h5>
+          <p class="card-text">Découvrez le Taj Mahal et l'histoire fascinante de l'Inde.</p>
+          <a href="#" class="btn btn-danger">Réserver</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="assets/Abu Dhabi 🇦🇪.jpeg" class="card-img-top" alt="Abu Dhabi">
+        <div class="card-body">
+          <h5 class="card-title">Abu Dhabi, Émirats</h5>
+          <p class="card-text">Découvrez la capitale moderne et ses merveilles architecturales.</p>
+          <a href="#" class="btn btn-danger">Réserver</a>
+        </div>
+      </div>
+    </div>
+
   </div>
-  <div class="form-floating">
-  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-  <label for="floatingTextarea">Ecrire votre message</label>
-</div>
-  <button type="submit" class="btn btn-danger">Envoyer un Message</button>
-</form>
-    </section>
+</section>
+
+<!-- CONTACT -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Contactez-nous</h2>
+
+  <form>
+    <div class="mb-3">
+      <label class="form-label">Nom & Prénom</label>
+      <input type="text" class="form-control">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Adresse email</label>
+      <input type="email" class="form-control">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Message</label>
+      <textarea class="form-control" rows="4"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-danger">Envoyer</button>
+  </form>
+</section>
+
 </body>
 </html>
      
