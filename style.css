@@ -1,0 +1,21 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: rgb(13, 12, 12);
+    background: url('https://picsum.photos/1920/1080');
+}
+
+h2{
+    text-align: center;
+}
+.paragraphe{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ligne1{
+    display: flex;
+    justify-content: space-evenly;
+}
